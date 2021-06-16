@@ -1,0 +1,16 @@
+.testimonial {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  color: yellow;
+  padding-left: 1em;
+  padding-top: 2.5em;
+  padding-bottom: 4em;
+  background-color: teal;
+  row-gap: 1em;
+}
+
+.testimonial h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}

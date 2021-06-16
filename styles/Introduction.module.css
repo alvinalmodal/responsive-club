@@ -1,0 +1,38 @@
+.introduction {
+  background-color: lightsalmon;
+  height: 30rem;
+  color: coral;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px;
+  align-content: center;
+  justify-content: center;
+  background-image: url("/runner-splash.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+.introductionTag {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: #80513e;
+  font-size: 2rem;
+  font-weight: 500;
+  height: auto;
+}
+
+@media only screen and (max-width: 640px) {
+  .introduction {
+    max-height: 200px;
+  }
+  .introductionTag {
+    height: 70px;
+  }
+}

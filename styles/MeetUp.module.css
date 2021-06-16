@@ -1,0 +1,25 @@
+.meetup {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 4fr 0.3fr;
+  justify-items: center;
+  color: yellow;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  margin: 0;
+  row-gap: 2em;
+  text-align: center;
+}
+
+.meetup h1 {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.meetup img {
+  width: 50%;
+  height: auto;
+  display: block;
+}

@@ -1,0 +1,27 @@
+.photos {
+  margin: 2em 0;
+  display: grid;
+  width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+  height: auto;
+}
+
+.photos img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .photos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 1.5em;
+    padding: 0;
+  }
+  .photos img {
+    width: 100%;
+    height: auto;
+  }
+}

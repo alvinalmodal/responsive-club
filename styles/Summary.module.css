@@ -1,0 +1,38 @@
+.summary {
+  display: grid;
+  width: 100%;
+  background-color: lightsalmon;
+  grid-template-columns: auto;
+  grid-template-rows: 1.5fr 1fr 1fr;
+  padding-left: 1em;
+  row-gap: 1em;
+}
+
+.summary h2 {
+  color: yellow;
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+}
+
+.summary p {
+  color: white;
+  width: 100%;
+}
+
+.summary a {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #413488;
+  color: #413488;
+}
+
+@media only screen and (max-width: 768px) {
+  .summary {
+    justify-items: center;
+    align-items: center;
+    padding-left: 0;
+    text-align: center;
+    row-gap: 1em;
+  }
+}
